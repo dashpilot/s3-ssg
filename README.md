@@ -15,8 +15,8 @@ Git-based static site generators are awesome, but the build step can take (a lot
 The example below takes a template from `src/template.html` and json data from `src/data.json`, renders the template and saves it to `index.html` in your bucket. The example uses handlebars for the template engine, and json for the data, but you can use any template engine or data source. You could also use an external data source, whatever you like!
 
 ```javascript
-const S3SSG = require('s3-ssg');
-const ssg = new S3DB(s3_key, s3_secret, s3_bucket, s3_prefix, s3_acl, s3_endpoint);
+const S3_SSG = require('@dashpilot/s3-ssg');
+const ssg = new S3_SSG(s3_key, s3_secret, s3_bucket, s3_prefix, s3_acl, s3_endpoint);
 
 const tpl_path = "src/template.html";
 const data_path = "src/data.json";
