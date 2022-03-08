@@ -1,6 +1,6 @@
 {
   "name": "@dashpilot/s3-ssg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Static Site Generator/build script for files stored in an S3 Bucket",
   "main": "index.js",
   "repository": "dashpilot/s3-ssg",
