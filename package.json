@@ -1,0 +1,23 @@
+{
+  "name": "@dashpilot/s3-ssg",
+  "version": "1.0.0",
+  "description": "Static Site Generator/build script for files stored in an S3 Bucket",
+  "main": "index.js",
+  "repository": "dashpilot/s3-ssg",
+  "scripts": {
+    "build": "npm install"
+  },
+  "author": "Gerben Schmidt",
+  "dependencies": {
+    "aws-sdk": ">=2.814.0",
+    "handlebars": "^4.7.7"
+  },
+  "keywords": [
+    "s3",
+    "ssg",
+    "database",
+    "amazon",
+    "serverless",
+    "jamstack"
+  ]
+}
